@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Client Side Local Storage HTML5 - by Michael Lancaster</title>
+	
+	<meta name="description" content="Client Side Local Storage HTML5 - by Michael Lancaster">
+	<meta name="author" content="Michael Lancaster">
+	<meta name="robots" content="all" >
+	
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+	
+	<script type="text/javascript">
+	
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11969273-6']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>
+	
+</head>
+<body>
+
+	<div id="wrap">
+		
+		<header id="header">
+			<h1>Client Side Local Storage HTML5</h1>
+			<p>by: <a href="http://twitter.com/weblancaster" target="_blank" title="author Michael Lancaster"><strong>Michael Lancaster</strong></a></p>
+		</header><!-- .WRAP -->
+		
+		<section id="insert-content">
+			<form method="" action="" id="form">
+				<label for="first-name">first-name</label>
+				<input type="text" name="first-name" value="" placeholder="first-name" id="first-name">
+				
+				<label for="last-name">last-name</label>
+				<input type="text" name="last-name" value="" placeholder="last-name" id="last-name" >
+				
+				<button type="button" id="bt-save">&nbsp;</button>
+				<button type="button" id="bt-show">&nbsp;</button>
+			</form>
+		</section><!-- .INSERT-CONTENT -->
+		
+		<section id="db-content">
+			<h2>Your Local Storage!</h2>
+			<ul id="list-name">
+				
+			</ul>
+			<button type="button" id="bt-back">&nbsp;</button>
+			<a href="" title="clear all" id="bt-clear">clear all</a>
+			<p>Close this page then, come back to see how it works.</p>
+		</section><!-- .DB-CONTENT -->
+		
+	</div><!-- .WRAP -->
+	
+	<script src="custom.js" type="text/javascript"></script>
+</body>
+</html>

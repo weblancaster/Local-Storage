@@ -1,0 +1,134 @@
+/*    RESET
+- - - - - - - - - - - */
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent 
+}
+
+/*    BODY, GLOBAL
+- - - - - - - - - - - */
+body {
+	background: #f1f1f1;
+	font: 12px helvetica, arial;
+}
+
+a {
+	text-decoration: underline;
+}
+
+h1 {
+	color: #999ca1;
+	font: 30px helvetica, arial;
+	text-align: center;
+}
+
+h2 {
+	font: 26px helvetica, arial;
+	color: #3366cc;
+}
+
+label {
+	display: block;
+	font: 26px helvetica, arial;
+	color: #3366cc;
+}
+
+input {
+	background: #fff;
+	border: 1px solid #dadada;
+	width: 625px;
+	height: 50px;
+	margin: 0 0 25px 0;
+	font: 18px helvetica, arial;
+	color: #999ca1;
+	padding: 0 0 0 10px;
+}
+
+h1, h2, label, p, a, li, span {
+	text-shadow: 2px 2px 2px #fff;
+	-webkit-text-shadow: 2px 2px 2px #fff;
+	-moz-text-shadow: 2px 2px 2px #fff;
+	-o-text-shadow: 2px 2px 2px #fff;
+}
+
+#wrap, #footer {
+	width: 700px;
+	margin: 10px auto 5px;
+}
+
+#insert-content, #db-content {
+	width: 700px;
+	margin: 90px auto 10px;
+}
+
+/*    WRAP
+- - - - - - - - - - - */
+#wrap {
+	position: relative;
+	margin: 10px auto 100px;
+}
+
+/*    HEADER
+- - - - - - - - - - - */
+#header p {
+	float: right;
+	width: 140px;
+	margin: 5px 110px 0 0;
+	font-family: helvetica, arial;
+}
+
+#header a { color: #999ca1; }
+
+/*    INSERT-CONTENT
+- - - - - - - - - - - */
+#insert-content {
+	position: absolute;
+	top: 0;
+}
+
+#bt-save, #bt-show, #bt-back {
+	width: 136px;
+	height: 52px;
+	cursor: pointer;
+}
+
+#bt-save { background: url(img/bt-save.png) no-repeat 0 0; }
+#bt-show { background: url(img/bt-show.png) no-repeat 0 0; }
+#bt-show, #bt-clear { 
+	float: right;
+	margin: 0 61px 0 0;
+}
+#bt-back { background: url(img/bt-back.png) no-repeat 0 0; margin: 10px 0 0 0; }
+
+/*    DB-CONTENT
+- - - - - - - - - - - */
+#db-content {
+	position: absolute;
+	top: 0;
+	display: none;
+}
+
+#db-content h2 {
+	border-bottom: 1px solid #999ca1;
+	padding: 0 0 2px 0;
+}
+
+#db-content p{
+	color: #999ca1;
+	margin: 50px 0 0 0;
+	font: 12px helvetica, arial;	
+}
+
+#list-name { margin: 10px 0 0 15px; }
+
+#list-name li {
+	margin: 0 0 5px 0;
+	font: 18px helvetica, arial;
+	color: #999ca1;
+}
